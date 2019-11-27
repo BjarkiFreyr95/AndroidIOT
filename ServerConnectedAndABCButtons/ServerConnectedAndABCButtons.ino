@@ -3,6 +3,7 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
+
 Adafruit_SSD1306 display = Adafruit_SSD1306(128, 32, &Wire);
 
 // OLED FeatherWing buttons map to different pins depending on board:
