@@ -82,6 +82,7 @@ void setup()
 
 void loop()
 {
+  display.setCursor(0,0);
   //get a random server from the pool
   WiFi.hostByName(ntpServerName, timeServerIP); 
 
